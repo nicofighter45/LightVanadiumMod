@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "light-vana-mod",
+  "version": "${version}",
+
+  "name": "Light Vanadium Mod",
+  "description": "Mod for minecraft Vanadium server!",
+  "authors": [
+    "nicofighter45"
+  ],
+  "contact": {
+    "homepage": "https://github.com/nicofighter45/LightVanadiumMod",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/vana-mod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.vana_mod.nicofighter45.main.CommonInitializer"
+    ],
+    "client": [
+      "fr.vana_mod.nicofighter45.main.client.ClientInitializer"
+    ],
+    "server": [
+      "fr.vana_mod.nicofighter45.main.server.ServerInitializer"
+    ]
+  },
+  "mixins": [
+    "light-vana-mod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}

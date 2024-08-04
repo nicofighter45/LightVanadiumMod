@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.light_vana_mod.nicofighter45.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "DeOpCommandMixin",
+    "EntityMixin",
+    "OpCommandMixin",
+    "PlayerEntityMixin",
+    "PlayerManagerAccessor",
+    "PlayerManagerMixin"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

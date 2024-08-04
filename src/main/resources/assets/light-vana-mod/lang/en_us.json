@@ -1,0 +1,39 @@
+{
+
+  "commands.vana-mod.broadcast.error": "Correct usage /broadcast <message>",
+  "commands.vana-mod.broadcast.done": "Message was broadcast {value}",
+
+  "commands.vana-mod.pvp.done": "Pvp is now set to {value}",
+
+  "commands.vana-mod.freeze.error": "Correct usage /freeze <player>",
+  "commands.vana-mod.freeze.deactivate_op_msg": "{value} is un-freeze",
+  "commands.vana-mod.freeze.activate_op_msg": "{value} is freeze",
+  "commands.vana-mod.freeze.deactivate": "Your are now un-freeze",
+  "commands.vana-mod.freeze.activate": "Your are now freeze",
+
+  "commands.vana-mod.hat.empty_hand_error": "You have nothing in your hand",
+  "commands.vana-mod.hat.more_than_1_item_error": "You can't put many items in your head",
+  "commands.vana-mod.hat.done": "Your hand and your helmet have been exchange",
+
+  "commands.vana-mod.dim.error": "Correct usage /dim <overworld|nether|end>",
+  "commands.vana-mod.dim.error_overworld": "You are already in the overworld",
+  "commands.vana-mod.dim.error_nether": "You are already in the nether",
+  "commands.vana-mod.dim.error_end": "You are already in the end",
+  "commands.vana-mod.done_overworld": "You are now in the overworld",
+  "commands.vana-mod.done_nether": "You are now in the nether",
+  "commands.vana-mod.done_end": "You are now in the end",
+
+  "commands.vana-mod.invsee.error": "Correct usage /invsee <player>",
+  "commands.vana-mod.invsee.done": "Printing inventory of {value}",
+
+  "commands.vana-mod.ecsee.error": "Correct usage /ecsee <player>",
+  "commands.vana-mod.ecsee.done": "Printing ender chest of {value}",
+  "commands.vana-mod.ecsee.name": "Ender chest of {value}",
+
+  "commands.vana-mod.op.feedback": "Player {value1} permission value is now {value2}",
+  "commands.vana-mod.op.update": "You now have permission value {value}",
+  "commands.vana-mod.op.failed": "{value} isn't connected",
+
+  "key.category.vana-mod.vanadium": "Vanadium",
+  "key.vana-mod.night_vision": "Night Vision"
+}
